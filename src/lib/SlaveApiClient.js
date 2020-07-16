@@ -35,8 +35,6 @@ class SlaveApiClient {
           reject(err, resp);
         }
         else {
-
-          //console.log(resp[2][5].toString())
           resolve(resp);
         }
       });
